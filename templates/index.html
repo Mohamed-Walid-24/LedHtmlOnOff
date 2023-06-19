@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Button 2 Examples</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type = "text/css" href="{{url_for('static', filename='index.css')}}">
+</head>
+<body>
+  <form action="{{ url_for('process') }}" method="POST">
+    <div class="container">
+        <input class="on" type="submit" name="ON_But" value="ON">
+        <input class="off" type="submit" name="OFF_But" value="OFF">
+    </div>
+</form>
+</body>
+</html>

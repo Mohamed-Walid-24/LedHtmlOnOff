@@ -1,0 +1,23 @@
+.on{
+
+    background-color: green;
+    height: 20%;
+    width: 20%;
+}
+.off{
+    background-color: red;
+    height: 20%;
+    width: 20%;
+}
+.container{
+    margin-top: 50px;
+    height: 50vh;
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+@media screen and (min-width: 300px) {
+   .off,.on {height: 20%;
+    width: 20%;}
+  }
